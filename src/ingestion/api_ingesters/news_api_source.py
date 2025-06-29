@@ -8,11 +8,11 @@ class NewsAPIIngestor(BaseIngestor) :
         config = dotenv_values('.env')
 
         self.api_key = config['NEWS_API_KEY']
-        self.endpoint = 'https://newsapi.org/v2/everything'
+        self.endpoint = 'https://newsapi.org/v2/top-headlines'
     
-    def fetch_articles(self, query, max_results = 10):
+    def fetch_articles(self, category, max_results = 50):
         params = {
-            'q' : query,
+            'category' : category,
             'pageSize' : max_results,
             'apiKey' : self.api_key
         }

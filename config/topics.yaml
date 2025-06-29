@@ -1,0 +1,81 @@
+- name : Programming
+  keywords :
+  - java
+  - c
+  - c++
+  - python
+  - go
+  - programming
+  - coding
+  - ide
+  - perl
+  - rust
+  - html
+  - css
+  - javascript
+  - js
+  - nodejs
+  - node.js
+  - backend
+  - frontend
+  - vs code
+  - idea
+  - unit test
+  - testing
+  - emacs
+  - linux
+  - windows
+  - open source
+  - dev
+  - developer
+  - refactor
+  - visual studio
+  - cli
+  - docker
+  - git
+  - github
+  - terminal
+  - django
+  - flask
+  - api
+  - kotlin
+  - scala
+  enabled : 1
+
+- name : Machine Learning
+  keywords :
+  - machine learning
+  - artificial intelligence
+  - ai
+  - ml
+  - data engineering
+  - data analysis
+  - python
+  - airflow
+  - pycharm
+  - databricks
+  - snowflake
+  - chatgpt
+  - deepseek
+  - claude
+  - kafka
+  - database
+  - apache
+  - chatbot
+  - neural networks
+  - transformers
+  - embeddings
+  - huggingface
+  - langchain
+  - pandas
+  - numpy
+  - scikit
+  - pytorch
+  - tensorflow
+  - llama
+  - bert
+  - gpt
+  - api
+  - hallucination
+  - llm
+  enabled : 1

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for article in articles %}
+        <div class="article-card">
+            <a href="{{ article.url }}" target="_blank"><div class="article-title">{{ article.title }}</div></a>
+            <p>{{ article.description }}</p>
+            <div class="article-source">{{ article.source_name }}</div>
+            <div class="article-date">{{ article.published_at }}</div>
+        </div>
+    {% endfor %}
+{% endblock %}

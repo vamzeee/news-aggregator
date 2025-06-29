@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>News</title>
+</head>
+<body>
+    <div class="page-heading">Latest News</div>
+    <div class="content-container">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <footer>
+        <div class="footer-text">
+            <p>Made with <a href="https://flask.palletsprojects.com/en/stable/" target="_blank">Flask</a> and <a href="https://newsapi.org/" target="_blank">NewsAPI</a></p>
+            <p>&lt3</p>
+        </div>
+        <div class="footer-links">
+            <div><a href="https://www.linkedin.com/in/vamsee-meduri" target="_blank">LinkedIn</a></div>
+            <div><a href="https://github.com/vamzeee" target="_blank">GitHub</a></div>
+            <div><a href="https://www.kaggle.com/vamzeee" target="_blank">Kaggle</a></div>
+        </div>
+    </footer>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

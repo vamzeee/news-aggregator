@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root {
+  --bg-primary: #E5E5E5;
+  --text-primary: #2d2d2d;
+  --highlight: #1f2937;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-primary);
+    line-height: 1.4;
+    color: var(--text-primary);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page-heading {
+    font-size: clamp(3rem, 4vw, 4rem);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.content-container {
+    padding: 1rem;
+}
+
+.article-card {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.article-card a {
+    color: inherit;
+    font-size: clamp(1.8rem, 2vw, 3rem);
+}
+
+.article-card p {
+    font-size: clamp(1.4rem 1.5vw, 1.8rem);
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.article-source {
+    font-size: clamp(0.7rem 0.7vw 1.5rem);
+}
+
+.article-date {
+    font-size: clamp(0.7rem 0.7vw 1.5rem);
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer a {
+    color: inherit;
+    font-size: clamp(0.5rem 0.7rem 1rem);
+}
+
+.footer-text p{
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}

@@ -30,3 +30,18 @@ class Article:
     def to_db_tuple(self):
         """Convert to a tuple for SQL insertion"""
         return (self.url, self.title, self.description, self.content, self.published_at, self.source_name, self.api_source)
+    
+    @classmethod
+    def from_db_tuple(cls, row):
+        """Create Article from database row"""
+        return cls(
+            id = row['id'],
+            url = row['url'],
+            title = row['title'],
+            api_source = row['api_source'],
+            description = row['description'],
+            content = row['content'],
+            published_at = row['published_at'],
+            source_name = row['source_name'],
+            ingested_at = row['ingested_at']
+        )

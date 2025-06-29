@@ -13,7 +13,7 @@ def insert_articles_batch(articles: list) :
     for article in articles :
         try:
             cursor.execute("""
-                INSERT OR REPLACE INTO articles 
+                INSERT OR IGNORE INTO articles 
                 (url, title, description, content, published_at, source_name, api_source)
                 VALUES (?, ?, ?, ?, ?, ?, ?)""", article.to_db_tuple())
             success_count+=1
